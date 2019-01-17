@@ -1,6 +1,5 @@
 package main
 
-// Package is called aw
 import (
 	"log"
 
@@ -31,7 +30,6 @@ func run() {
 		Subtitle("dummy subtitle").
 		Arg("https://google.co.jp").
 		UID("dummy uid").
-		// Icon("dummy icon").
 		Valid(true)
 
 	// Send results
